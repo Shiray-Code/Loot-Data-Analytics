@@ -6,7 +6,7 @@ Automatización de extracción de datos provenientes de un CSV pegado por cada i
 
 ## Objetivo
 
-Lograr obtener una base de datos proveniente de un texto pegado en un Google Sheet, que posteriormente desencadene en un Dashboard en Power BI.
+Lograr obtener una base de datos proveniente de un texto pegado en un Google Sheet, que posteriormente derive en un Dashboard en Power BI.
 
 ---
 

@@ -1,4 +1,4 @@
-// ===== CONFIG PERSONAJE (24H SOLO TERROR) =====
+// ===== CONFIG PERSONAJE (4H SOLO TERROR) =====
 function obtenerPersonaje() {
   const props = PropertiesService.getUserProperties();
   const nombre = props.getProperty("personaje_nombre");
@@ -9,7 +9,7 @@ function obtenerPersonaje() {
   const ahora = new Date().getTime();
   const guardado = parseInt(timestamp);
 
-  if (ahora - guardado > 86400000) {
+  if (ahora - guardado > 14400000) {
     props.deleteProperty("personaje_nombre");
     props.deleteProperty("personaje_timestamp");
     return null;

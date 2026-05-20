@@ -1,4 +1,4 @@
-# Proyecto-Personal-Compilado-Loot-y-Dashboard
+# Loot Data Automation & Power BI Dashboard
 
 Automatización de extracción de datos provenientes de un CSV pegado por cada integrante del grupo, para creación de base de datos y Dashboard.
 
@@ -6,22 +6,20 @@ Automatización de extracción de datos provenientes de un CSV pegado por cada i
 
 ## Objetivo
 
-Lograr obtener una base de datos proveniente de un texto pegado en un Google Sheet, que posteriormente derive en un Dashboard en Power BI.
+Desarrollar una solución automatizada para capturar, transformar y consolidar información proveniente de mensajes generados dentro del juego, permitiendo la construcción de una base de datos centralizada y dashboards analíticos en Power BI.
 
 ---
 
 ## Funcionalidades
 
-- Detección de distintos Items.
-- Separación por cantidad e Items
-- Cruce con base de datos de Precios NPC
-- Automatización de fecha al pega el CSV
-- Label consultando Nombre de Personaje
-- Restricción en hoja especifica referente a Nombre de Personaje (4 horas de memoria de nombre)
-- Consolidación de datos
-- Automatización en actualización
-- Integración en Google Sheet
-- Creación de Dashboard en Power BI
+- Extracción automática de información desde mensajes generados en el juego
+- Detección y separación de ítems y cantidades
+- Cruce automatizado con base de precios NPC
+- Registro automático de fechas y personajes
+- Consolidación centralizada de datos
+- Automatización de actualización de información
+- Integración con Google Sheets y Power BI
+- Visualización interactiva mediante dashboards analíticos
 
 ---
 
@@ -108,20 +106,26 @@ se construyen dashboards interactivos que permiten analizar ganancias, ítems ob
 Además, el sistema incorpora automáticamente las imágenes de los ítems mediante el cruce entre la base consolidada y la tabla `Valor_NPC`.
 
 ![Dashboard Power BI](Imagenes/Dashboard-PB.png)
+
 ---
 
-## Tecnoligías utilizadas
+## Tecnologías Utilizadas
 
 - JavaScript
-- Google Sheet
-- App Script
+- Google Apps Script
+- Google Sheets
 - Power BI
+- DAX
+- Data Modeling
+- ETL Automation
 
 ---
 
 ## Resultado
 
-La automatización permitió contabilizar ganancia de jugadores en tiempo real y junto al dashboard poder visualizar de mejor manera el día de mayor ganancia, comparar con otros jugadores, el Item más valioso obtenido y la fecha, y finalmente distinguir quien ha logrado obtener mayores ganancias.
+La automatización permitió centralizar y estructurar información proveniente de múltiples usuarios en tiempo real, facilitando el análisis de ganancias, comportamiento de ítems y métricas operacionales mediante dashboards interactivos en Power BI.
+
+La solución redujo significativamente el trabajo manual asociado a la consolidación de información y mejoró la visualización y trazabilidad de datos.
 
 ## Estructura del proyecto
 
@@ -135,26 +139,29 @@ Proyecto-Personal-Compilado-Loot-y-Dashboard/
 ├── 04_Generar-Tabla.gs
 ├── 05_Formato-Temporal.gs
 ├── 06_Consolidado-de-Bases.gs
-├── 07_Crear-Base-de-Datos-SQL.gs //En proceso//
+├── 07_Crear-Base-de-Datos-SQL.gs //Planes Futuros
 └── README.md
 ```
 
 ---
 
-## Aprendizaje
+## Aprendizajes
 
-- Automatización de creación de base de datos con Google Sheet
-- Aplicación de JavaScript para uso de App Script
-- Integración de datos de multiples fuentes de información
-- Aplicación de Power BI con funciones DAX y marcadores
-- Optimizar visualizaciones
+- Desarrollo de procesos ETL utilizando Google Apps Script
+- Automatización de captura y transformación de datos
+- Integración y consolidación de múltiples fuentes de información
+- Modelado y visualización de datos en Power BI
+- Uso de funciones DAX y marcadores para dashboards interactivos
+- Optimización de procesos de análisis y reporting
 
 ---
 
-## En proceso
+## Próximas Mejoras
 
-- Creación de pagina Web
-- Atajos para cada personaje en la Web para obtener su base de Google Sheet y Observar su Dashboard
+- Desarrollo de interfaz web para acceso individual de jugadores
+- Integración automatizada entre dashboards y perfiles de usuario
+- Implementación de base de datos SQL para almacenamiento centralizado
+- Escalabilidad del sistema para múltiples grupos y servidores
 
 ---
 

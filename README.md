@@ -15,7 +15,7 @@ Lograr obtener una base de datos proveniente de un texto pegado en un Google She
 - Detección de distintos Items.
 - Separación por cantidad e Items
 - Cruce con base de datos de Precios NPC
-- Automatización de fecha que se pega el CSV
+- Automatización de fecha al pega el CSV
 - Label consultando Nombre de Personaje
 - Restricción en hoja especifica referente a Nombre de Personaje (4 horas de memoria de nombre)
 - Consolidación de datos

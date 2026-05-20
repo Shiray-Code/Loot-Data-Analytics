@@ -23,7 +23,24 @@ Desarrollar una solución automatizada para capturar, transformar y consolidar i
 
 ---
 
-## Procedimiento
+## Arquitectura de la Solución
+
+El proyecto fue desarrollado como una solución automatizada de procesamiento y análisis de datos, permitiendo transformar mensajes generados dentro del juego en información estructurada y visualizable en tiempo real.
+
+### Flujo de procesamiento
+
+1. Captura de mensajes generados por jugadores
+2. Extracción y limpieza automática de datos
+3. Identificación de ítems y cantidades
+4. Cruce con tabla de valorización NPC
+5. Consolidación de múltiples fuentes de información
+6. Estructuración de base de datos centralizada
+7. Modelado y visualización en Power BI
+8. Actualización automática de dashboards
+
+![Dashboard Power BI](Imagenes/Dashboard-PB.png)
+
+---
 
 ## Proceso Automatizado
 
@@ -142,6 +159,14 @@ Proyecto-Personal-Compilado-Loot-y-Dashboard/
 ├── 07_Crear-Base-de-Datos-SQL.gs //Planes Futuros
 └── README.md
 ```
+
+---
+
+## Impacto Técnico
+
+La solución permitió automatizar completamente el procesamiento manual de información proveniente de múltiples usuarios, reduciendo tiempos de consolidación y mejorando la disponibilidad de datos para análisis y visualización.
+
+El sistema fue diseñado para trabajar con múltiples idiomas, múltiples fuentes de información y actualización automatizada diaria.
 
 ---
 

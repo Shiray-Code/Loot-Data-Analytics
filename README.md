@@ -39,3 +39,38 @@ Lograr obtener una base de datos proveniente de un texto pegado en un Google She
 La automatización permitió contabilizar ganancia de jugadores en tiempo real y junto al dashboard poder visualizar de mejor manera el día de mayor ganancia, comparar con otros jugadores, el Item más valioso obtenido y la fecha y finalmente distinguir quien ha logrado tener mayores ganancias.
 
 ## Estructura del proyecto
+
+```bash
+Proyecto-Personal-Compilado-Loot-y-Dashboard/
+│
+├── 00_Fecha-Automatica-Nombre-Personaje.gs
+├── 01_Obtener-Nombre-Personaje.gs
+├── 02_Triggers.gs
+├── 03_Maestro-de-Items.gs
+├── 04_Generar-Tabla.gs
+├── 05_Formato-Temporal.gs
+└── README.md
+```
+
+---
+
+## Aprendizaje
+
+- Automatización de creación de base de datos con Google Sheet
+- Aplicación de JavaScript para uso de App Script
+- Integración de datos de multiples fuentes de información
+- Aplicación de Power BI con funciones DAX y marcadores
+- Optimizar visualizaciones
+
+---
+
+## En proceso
+
+- Creación de pagina Web
+- Atajos para cada personaje en la Web para obtener su base de Google Sheet y Observar su Dashboard
+
+---
+
+## Autor
+
+Kevin Daniel Shiray Vergara

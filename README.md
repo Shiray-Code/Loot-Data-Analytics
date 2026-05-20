@@ -49,6 +49,7 @@ Proyecto-Personal-Compilado-Loot-y-Dashboard/
 ├── 03_Maestro-de-Items.gs
 ├── 04_Generar-Tabla.gs
 ├── 05_Formato-Temporal.gs
+├── 06_Consolidado-de-Bases.gs
 └── README.md
 ```
 

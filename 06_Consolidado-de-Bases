@@ -1,0 +1,66 @@
+function consolidarUsuarios() {
+  const archivos = [
+    { id: "1KlNmuMqGSCyEa6tVeLUL1yCm9Z_rL38yCIq_BVPARDY", nombre: "Shiri" },
+    { id: "1f76yvfdcHK4KI8ejIFlOUW-qqtc9Xf7JzphedDmjhFU", nombre: "Yurei" },
+    { id: "1aq1NGB7oEFwUHZQk3OCvO-BQUUC-fxdg9a9wLQblWXI", nombre: "Dagi" }
+  ];
+
+  const hojaDestino = SpreadsheetApp.getActiveSpreadsheet()
+    .getSheetByName("Consolidado") || SpreadsheetApp.getActiveSpreadsheet().insertSheet("Consolidado");
+
+  hojaDestino.clear();
+
+  let dataFinal = [];
+  let encabezadoAgregado = false;
+  const COLUMNAS_ESPERADAS = 10; // ahora son 7 (incluye Usuario)
+
+  archivos.forEach(obj => {
+    try {
+      const ss = SpreadsheetApp.openById(obj.id);
+      const hoja = ss.getSheetByName("Tabla_loot_Total");
+
+      if (!hoja) {
+        Logger.log(" No existe hoja en ID: " + obj.id);
+        return;
+      }
+
+      const data = hoja.getDataRange().getValues();
+      if (data.length <= 1) return;
+
+      // encabezado
+      if (!encabezadoAgregado) {
+        let header = ajustarColumnas(data[0], 9);
+        header.push("Usuario");
+        dataFinal.push(header);
+        encabezadoAgregado = true;
+      }
+
+      // datos
+      for (let i = 1; i < data.length; i++) {
+        let fila = ajustarColumnas(data[i], 9);
+        fila.push(obj.nombre); 
+        dataFinal.push(fila);
+      }
+
+    } catch (error) {
+      Logger.log(" Error con ID: " + obj.id + " → " + error.message);
+    }
+  });
+
+  if (dataFinal.length === 0) {
+    throw new Error("No se consolidó nada.");
+  }
+
+  hojaDestino.getRange(1, 1, dataFinal.length, COLUMNAS_ESPERADAS)
+    .setValues(dataFinal);
+}
+
+
+//  normalizador
+function ajustarColumnas(fila, columnas) {
+  let nueva = fila.slice(0, columnas);
+  while (nueva.length < columnas) {
+    nueva.push("");
+  }
+  return nueva;
+}

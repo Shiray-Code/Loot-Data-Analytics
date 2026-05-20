@@ -1,8 +1,8 @@
 function consolidarUsuarios() {
   const archivos = [
-    { id: "1KlNmuMqGSCyEa6tVeLUL1yCm9Z_rL38yCIq_BVPARDY", nombre: "Shiri" },
-    { id: "1f76yvfdcHK4KI8ejIFlOUW-qqtc9Xf7JzphedDmjhFU", nombre: "Yurei" },
-    { id: "1aq1NGB7oEFwUHZQk3OCvO-BQUUC-fxdg9a9wLQblWXI", nombre: "Dagi" }
+    { id: "(Datos Personales), nombre: "Shiri" },
+    { id: "(Datos Personales)", nombre: "Yurei" },
+    { id: "(Datos Personales)", nombre: "Dagi" }
   ];
 
   const hojaDestino = SpreadsheetApp.getActiveSpreadsheet()

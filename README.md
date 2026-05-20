@@ -50,6 +50,7 @@ Proyecto-Personal-Compilado-Loot-y-Dashboard/
 ├── 04_Generar-Tabla.gs
 ├── 05_Formato-Temporal.gs
 ├── 06_Consolidado-de-Bases.gs
+├── 07_Crear-Base-de-Datos-SQL.gs //En proceso//
 └── README.md
 ```
 

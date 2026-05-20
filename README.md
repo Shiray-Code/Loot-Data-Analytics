@@ -36,7 +36,7 @@ Lograr obtener una base de datos proveniente de un texto pegado en un Google She
 
 ## Resultado
 
-La automatización permitió contabilizar ganancia de jugadores en tiempo real y junto al dashboard poder visualizar de mejor manera el día de mayor ganancia, comparar con otros jugadores, el Item más valioso obtenido y la fecha y finalmente distinguir quien ha logrado tener mayores ganancias.
+La automatización permitió contabilizar ganancia de jugadores en tiempo real y junto al dashboard poder visualizar de mejor manera el día de mayor ganancia, comparar con otros jugadores, el Item más valioso obtenido y la fecha, y finalmente distinguir quien ha logrado obtener mayores ganancias.
 
 ## Estructura del proyecto
 

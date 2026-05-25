@@ -38,18 +38,6 @@ El proyecto fue desarrollado como una solución automatizada de procesamiento y 
 7. Modelado y visualización en Power BI
 8. Actualización automática de dashboards
 
-## Dashboard Interactivo
-
-<p align="center">
-  <a href="https://app.powerbi.com/view?r=eyJrIjoiN2ZlMjA1OTUtYWM4Yy00NjllLThjYTItNmYzZWQ1OTRkZTg4IiwidCI6IjdjMmE5ZjE2LWUzNzItNDJhYi05NzZlLTUzYzIwODM3YWJkNyIsImMiOjR9">
-    <img src="Imagenes/Dashboard-PB.png" width="900">
-  </a>
-</p>
-
-<p align="center">
-  <b>Click en la imagen para abrir el dashboard interactivo</b>
-</p>
-
 ---
 
 ## Proceso Automatizado
@@ -132,7 +120,17 @@ se construyen dashboards interactivos que permiten analizar ganancias, ítems ob
 
 Además, el sistema incorpora automáticamente las imágenes de los ítems mediante el cruce entre la base consolidada y la tabla `Valor_NPC`.
 
-![Dashboard Power BI](Imagenes/Dashboard-PB.png)
+## Dashboard Interactivo
+
+<p align="center">
+  <a href="https://app.powerbi.com/view?r=eyJrIjoiN2ZlMjA1OTUtYWM4Yy00NjllLThjYTItNmYzZWQ1OTRkZTg4IiwidCI6IjdjMmE5ZjE2LWUzNzItNDJhYi05NzZlLTUzYzIwODM3YWJkNyIsImMiOjR9">
+    <img src="Imagenes/Dashboard-PB.png" width="900">
+  </a>
+</p>
+
+<p align="center">
+  <b>Click en la imagen para abrir el dashboard interactivo</b>
+</p>
 
 ---
 

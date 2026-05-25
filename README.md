@@ -124,7 +124,7 @@ Además, el sistema incorpora automáticamente las imágenes de los ítems media
 
 <p align="center">
   <a href="https://app.powerbi.com/view?r=eyJrIjoiN2ZlMjA1OTUtYWM4Yy00NjllLThjYTItNmYzZWQ1OTRkZTg4IiwidCI6IjdjMmE5ZjE2LWUzNzItNDJhYi05NzZlLTUzYzIwODM3YWJkNyIsImMiOjR9">
-    <img src="Imagenes/Dashboard-PB.png" width="900">
+    <img src="Imagenes/Dashboard-PWB.png" width="900">
   </a>
 </p>
 

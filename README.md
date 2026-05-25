@@ -166,6 +166,7 @@ Proyecto-Personal-Compilado-Loot-y-Dashboard/
 ├── 05_Formato-Temporal.gs
 ├── 06_Consolidado-de-Bases.gs
 ├── 07_Crear-Base-de-Datos-SQL.gs //Planes Futuros
+├── 08_Consolidado-en-Pagina-Web //Planes Futuros
 └── README.md
 ```
 

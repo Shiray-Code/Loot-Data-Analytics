@@ -136,15 +136,16 @@ Además, el sistema incorpora automáticamente las imágenes de los ítems media
 
 ---
 
-## Tecnologías Utilizadas
+## Tecnologías Aplicadas
 
-- JavaScript
+- ETL Automation
 - Google Apps Script
-- Google Sheets
+- Data Transformation
 - Power BI
 - DAX
 - Data Modeling
-- ETL Automation
+- Dashboard Automation
+- Data Visualization
 
 ---
 
